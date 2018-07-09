@@ -1,0 +1,100 @@
+.row {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+@media only screen and (max-width: 48rem)
+{
+}
+
+@media only screen and (min-width: 48rem)
+{
+    .hero{
+        padding: 4rem 0rem;
+    }
+    .hero h1 {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+    .hero .subhead {
+        
+        font-size: 2.5rem;
+    }
+    
+    .section {
+        margin: 0 auto;
+        margin-top: 14rem;
+        margin-bottom: 14rem;
+    }
+    .section .block-desktop {
+        margin-top: 1rem;
+    }
+    .section .block-mobile {
+         margin-top: 1rem;
+    } 
+    .section h5 {
+        font-size: 2.5rem;
+    }
+    .section .sub-small .tag{
+        font-size: 1rem;
+    }
+    .section p {
+        font-size: 1.5rem;
+    }
+    .about .box{
+        font-size: 2.5rem;
+        margin-bottom: 10rem;
+    }
+    
+    .contact a{
+        font-size: 3rem;
+    }
+    
+    .social
+    {
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 62rem)
+{
+
+
+    .section {
+        margin: 14rem auto;
+        font-size: 1.25rem;
+    }
+    .section .block-desktop {
+        margin-top: 20rem;
+    }
+    .section .block-mobile {
+         margin-top: 28rem;
+    } 
+    
+    .social
+    {
+        margin-top: 14rem;
+        margin-bottom: 1rem;
+    }
+    .social .icon svg {
+        width: 2rem!important;
+        height: 2rem!important;
+    }
+    .social .icon svg:hover
+    {
+        opacity: 0.4;
+    }
+    .social .icon svg:focus
+    {
+        opacity: 0.4;
+    }
+}
+
+@media only screen and (min-width: 75rem)
+{
+}
+

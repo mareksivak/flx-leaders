@@ -1,0 +1,47 @@
+@media only screen and (max-width: 48rem)
+{
+}
+
+@media only screen and (min-width: 48rem)
+{
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .logo {
+        position: fixed;
+        transform: rotate(-90deg) translate(-100%);
+        transform-origin: left top;
+        font-size: 32px;
+        line-height: 40px;
+        top: 2rem;
+        left: 1rem;
+    }
+    
+    .story p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .full-width {
+        padding: 2rem 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 62rem)
+{
+}
+
+@media only screen and (min-width: 75rem)
+{
+}
+
+@media only screen and (min-width: 93rem)
+{
+   /* .container {
+        width: 93rem;
+    }*/
+}
