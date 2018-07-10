@@ -75,7 +75,7 @@ ul {
     padding: 1rem 2rem;
 }
 .btn-link {
-    
+    font-style: oblique;
 }
 
 .disabled {
@@ -158,9 +158,15 @@ ul {
 
 .leader {
     background: red;
+    margin-bottom: 1rem;
+    padding-right: 2rem!important;
 }
 .leader img {
     max-width: 100%;
+}
+.leader .leader-name {
+    font-weight: 700;
+    margin-top: 1rem;
 }
 
 .section ul {

@@ -15,19 +15,22 @@
 
 @media only screen and (min-width: 48rem)
 {
-    h1 {
-        font-size: 40px;
-        line-height: 48px;
+    .no-sm {
+        display: none;
     }
     
-    .logo {
-        position: fixed;
-        transform: rotate(-90deg) translate(-100%);
-        transform-origin: left top;
+    .text-primary {
         font-size: 32px;
         line-height: 40px;
-        top: 2rem;
-        left: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 80px;
+        line-height: 88px;
+    }
+    .hero .subhead {
+        font-size: 36px;
+        line-height: 44px;
     }
     
     .story p {
