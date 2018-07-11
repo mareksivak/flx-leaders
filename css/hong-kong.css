@@ -160,6 +160,17 @@ ul {
     max-width: 100%;
     align-self: center;
 }
+.img-wrapper-fw .small {
+    color: #808080;
+    max-width: 300px;
+    margin: 0.25rem 2rem;
+    max-width: 200px;
+    position: relative;
+    
+    font-size: 14px;
+    line-height: 16px;
+    float: right;
+}
 
 .leader {
     background: red;

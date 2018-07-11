@@ -46,6 +46,10 @@
         line-height: 28px;
     }
     
+    .img-wrapper-fw .small {
+        margin-right: 0rem;
+    }
+    
     .full-width {
         padding: 2rem 0;
         margin-top: 2rem;
