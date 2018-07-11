@@ -19,9 +19,17 @@
         display: none;
     }
     
+    .section {
+        padding: 8rem 0rem;     
+    }
+    .section .minihead {
+        margin-bottom: 1rem;
+        font-size: 21px;
+    }
+    
     .text-primary {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 48px;
+        line-height: 56px;
     }
     
     .hero h1 {

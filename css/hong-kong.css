@@ -108,7 +108,7 @@ ul {
     font-family: "freight-text-pro";
     font-weight: 300;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .landing {
@@ -118,6 +118,10 @@ ul {
 
 .nav {
     padding: 1rem 2rem;
+}
+.nav .menu li {
+    display: inline;
+    margin-left: 2rem;
 }
 .nav .menu img {
     height: 2rem;
@@ -146,14 +150,15 @@ ul {
 }
 
 .section .minihead {
-    
+    margin-bottom: 0.5rem;
 }
 .section .text-tertiary {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .img-wrapper-fw img {
     max-width: 100%;
+    align-self: center;
 }
 
 .leader {
@@ -187,6 +192,6 @@ ul {
     background: url('../img/check.svg') 0% 0% contain no-repeat;
     background-repeat: no-repeat;
     background-image:url('../img/check.svg'); 
-background-size:contain; 
-background-repeat:no-repeat; 
+    background-size:contain; 
+    background-repeat:no-repeat; 
 }
