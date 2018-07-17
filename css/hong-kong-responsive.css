@@ -32,9 +32,24 @@
         line-height: 56px;
     }
     
+    .hero {
+        margin-top: 1rem;
+    }
+    .hero .hero-wrapper {
+        padding: 6rem 2rem;
+        position: relative;
+        z-index: 3;
+    }
+    .hero img {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 600px;
+        z-index: 2;
+    }
     .hero h1 {
-        font-size: 80px;
-        line-height: 88px;
+        font-size: 72px;
+        line-height: 80px;
     }
     .hero .subhead {
         font-size: 36px;
