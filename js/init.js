@@ -13,13 +13,13 @@ $(window).ready(function() {
     //open mobile nav
     $("#nav-open").click(function() {
         console.log("open");
-        $(".mobile-nav").show();
+        $(".mobile-nav, .mobile-nav ul").addClass("show");
     });
     
     //close mobile nav
     $("#nav-close,.mobile-nav .menu,.nav-wrapper").click(function() {
         console.log("close");
-        $(".mobile-nav").hide();
+        $(".mobile-nav, .mobile-nav ul").removeClass("show");
     });
 });
 

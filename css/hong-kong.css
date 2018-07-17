@@ -217,18 +217,52 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;   
-    background: #ffffff;
-    transition: 1.2s;
+    bottom: 0;
+    right: 0;   
+    background: #ACC0BB;
+    transition: opacity 500ms ease-out;
+    opacity: 0;
+    pointer-events: none;
 }
+.mobile-nav.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .mobile-nav .nav-wrapper {
     height: 100%;
 }
 .mobile-nav ul {
     margin: 2rem 0rem;
 }
-.mobile-nav li.has-after:after {
+.mobile-nav ul > * {
+    transition-delay: 0ms;
+    opacity: 0;
+    transform: translateY(10px);
+    will-change: opacity;
+    transition: opacity 100ms cubic-bezier(0.67, 0, 0.67, 1), transform 500ms cubic-bezier(0.33, 0, 0, 1);
+}
+.mobile-nav ul.show > :nth-child(1) {
+    transition-delay: 100ms;
+}
+.mobile-nav ul.show > :nth-child(2) {
+    transition-delay: 200ms;
+}
+.mobile-nav ul.show > :nth-child(3) {
+    transition-delay: 300ms;
+}
+.mobile-nav ul.show > :nth-child(3) {
+    transition-delay: 400ms;
+}
+.mobile-nav ul.show > :nth-child(4) {
+    transition-delay: 500ms;
+}
+.mobile-nav ul.show > li {
+    transform: translateY(0px);
+    opacity: 1;
+    transition-duration: 500ms;
+}
+.mobile-nav a.has-after:after {
     content: "";
     display: inline-block;
     width: 0.8em;
@@ -238,10 +272,15 @@ ul {
     background-image:url('../img/long-arrow-right.svg'); 
     background-size:contain; 
     background-repeat:no-repeat; 
-    opacity: 0.6;
+}
+.mobile-nav a:hover {
+    color: #333;
 }
 .mobile-nav ul:hover a {
-    color: #808080;
+    opacity: 0.3;
+}
+.mobile-nav ul a:hover {
+    opacity: 1;
 }
 .mobile-nav li {
     font-family: "freight-text-pro";
@@ -249,7 +288,4 @@ ul {
     line-height: 40px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-}
-.mobile-nav li a:hover {
-    color: #333;
 }
