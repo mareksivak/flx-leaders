@@ -55,7 +55,9 @@
         font-size: 36px;
         line-height: 44px;
     }
-    
+    .hero .cta {
+        margin-top: 4rem;
+    }
     .story p {
         font-size: 20px;
         line-height: 28px;
