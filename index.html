@@ -22,12 +22,9 @@
     
     <link rel="stylesheet" href="https://use.typekit.net/man3xsd.css">
       
-      
-      
-	<link rel="stylesheet" href="./css/anims/animate.css" type="text/css" />
-	<link rel="stylesheet" href="/css/anims/animate-customized.css" type="text/css" />
 	
-    
+    <link rel="stylesheet" href="./js/glidejs/css/glide.core.min.css">
+
     <link rel="stylesheet" href="./css/flexboxgrid.min.css" type="text/css" />
     <link rel="stylesheet" href="./css/hong-kong.css?ver=1" type="text/css" />
     <link rel="stylesheet" href="./css/hong-kong-responsive.css?ver=3" type="text/css" />
@@ -43,7 +40,7 @@
             <div class="menu"><img id="nav-open" src="./img/bars.svg" alt="Menu"></div>
         </div>
         <div class="col-xs-9 end-xs start-sm col-md-6 no-padding">
-            <div class="logo"><a href="/"><img src="./img/foundlost.svg" alt="Foundlost"></a></div>
+            <div class="logo"><a href="./index.html"><img src="./img/foundlost.svg" alt="Foundlost"></a></div>
         </div>
         <div class="col-md-6 end-xs no-xs">
             <ul class="menu">
@@ -79,7 +76,7 @@
         <div class="col-xs-12 col-md-7 no-padding">
             <h3 class="label">What is Foundlost</h3>
             <div class="text-primary">FoundLost connects explorers and adventurists with ordinary people who want to make extraordinary things.</div>
-            <div class="cta"><a href="//foundlo.st/" target="_blank" class="btn btn-link">See our expeditions</a>
+            <div class="cta"><a href="//foundlo.st/" target="_blank" class="btn btn-link btn-l has-arrow">See our expeditions</a>
             </div>
         </div>
     </div>
@@ -92,6 +89,7 @@
             <div class="text-primary">Engage a global community in life-changing outdoor trips.</div>
         </div>
     </div>
+    
     <div class="row">
         <div class="col-xs-12 col-md-4 no-padding">
             <div class="minihead wow fadeIn"><strong>Independent leader</strong></div>
@@ -127,29 +125,51 @@
         </div>
     </div>
     <div class="row wow fadeIn">
-        <div class="col-xs-12 col-md-4 leader no-padding">
-            <img src="./img/leader-chris@2x.jpg">
-            <p>Christopher crossed the Gobi Desert on foot in two months. Cycled 6300 km Canada under 31 days raising funds and awareness for the Multiple Sclerosis Society of Canada.</p>
-            <div class="leader-name">Christopher Schrader</div>
-            <div class="cta"><a href="https://foundlo.st/leader/christopher-schrader/" class="btn btn-link">Visit profile</a>
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 leader no-padding">
-            <img src="./img/leader-kyle@2x.jpg">
-            <p>Kyle works closely with the North Face, and his is arguably the most awe-inspiring instagram account that focuses solely on documenting the spectacular beauty of China’s wild and spectacular peaks.</p>
-            <div class="leader-name">Kyle Obermann</div>
-            <div class="cta"><a href="https://foundlo.st/leader/kyle-obermann/" target="_blank" class="btn btn-link">Visit profile</a>
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 leader no-padding">
-            <img src="./img/leader-faraz@2x.jpg">
-            <p>Faraz is a contributing author of ‘Mongolia: the Bradt Travel Guide’ (3rd ed.). He has lectured on his travels at Oxford University, the Royal Geographical Society and the Royal Society for Asian Affairs, and he has worked as a consultant to the UN in Mongolia.</p>
-            <div class="leader-name">Faraz Shibli</div>
-            <div class="cta"><a href="https://foundlo.st/leader/faraz-shibli/" target="_blank" class="btn btn-link">Visit profile</a>
-            </div>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                    <div class="leader">
+                        <img src="./img/leader-chris@2x.jpg">
+                        <p>Christopher crossed the Gobi Desert on foot in two months. Cycled 6300 km Canada under 31 days raising funds and awareness for the Multiple Sclerosis Society of Canada.</p>
+                        <div class="leader-name">Christopher Schrader</div>
+                        <div class="cta"><a href="https://foundlo.st/leader/christopher-schrader/" class="btn btn-link has-arrow">Visit profile</a>
+                        </div>
+                    </div>
+                </li>
+              <li class="glide__slide">
+                    <div class="leader">
+                        <img src="./img/leader-faraz@2x.jpg">
+                        <p>Faraz is a contributing author of ‘Mongolia: the Bradt Travel Guide’ (3rd ed.). He has lectured on his travels at Oxford University, the Royal Geographical Society and the Royal Society for Asian Affairs, and he has worked as a consultant to the UN in Mongolia.</p>
+                        <div class="leader-name">Faraz Shibli</div>
+                        <div class="cta"><a href="https://foundlo.st/leader/faraz-shibli/" target="_blank" class="btn btn-link has-arrow">Visit profile</a>
+                        </div>
+                    </div>  
+              </li>
+              <li class="glide__slide">
+                    <div class="leader">
+                        <img src="./img/leader-kyle@2x.jpg">
+                        <p>Kyle works closely with the North Face, and his is arguably the most awe-inspiring instagram account that focuses solely on documenting the spectacular beauty of China’s wild and spectacular peaks.</p>
+                        <div class="leader-name">Kyle Obermann</div>
+                        <div class="cta"><a href="https://foundlo.st/leader/kyle-obermann/" target="_blank" class="btn btn-link has-arrow">Visit profile</a>
+                        </div>
+                    </div>
+              </li>
+                <li class="glide__slide">
+                    <div class="leader">
+                        <img src="./img/leader-kyle@2x.jpg">
+                        <p>Kyle works closely with the North Face, and his is arguably the most awe-inspiring instagram account that focuses solely on documenting the spectacular beauty of China’s wild and spectacular peaks.</p>
+                        <div class="leader-name">Terence Kuam</div>
+                        <div class="cta"><a href="https://foundlo.st/leader/kyle-obermann/" target="_blank" class="btn btn-link has-arrow">Visit profile</a>
+                        </div>
+                    </div>
+              </li>
+            </ul>
+          </div>
         </div>
     </div>
 </div>
+
 
 <div class="container section">
     <div class="row wow fadeIn">
@@ -161,7 +181,7 @@
     <div class="row">
         <div class="col-xs-12 col-md-4">
             <div class="minihead wow fadeIn"><strong>Planning and marketing</strong></div>
-            <ul class="wow fadeIn">
+            <ul class="checked wow fadeIn">
             <li>we help you get from idea to organised trip</li>
             <li>we will promote your trips</li>
             <li>help you leverage your existing network</li>
@@ -169,7 +189,7 @@
         </div>
         <div class="col-xs-12 col-md-4">
             <div class="minihead wow fadeIn"><strong>24/7 Support</strong></div>
-            <ul class="wow fadeIn">
+            <ul class="checked wow fadeIn">
             <li>ready to help you anytime</li>
             <li>answering questions from your audience</li>
             <li>be around during and after the trip</li>
@@ -177,7 +197,7 @@
         </div>
         <div class="col-xs-12 col-md-4">
             <div class="minihead wow fadeIn"><strong>Logistics and operations</strong></div>
-            <ul class="wow fadeIn">
+            <ul class="checked wow fadeIn">
             <li>assist with flights and insurance</li>
             <li>help wirth sponorships, partnerships and content</li>
             <li>we pre-vett the participants, but only you will pick who is going</li>
@@ -274,6 +294,8 @@
 </div>
 
     <script type="text/javascript" src="./js/wow.min.js"></script>
+    <script type="text/javascript" src="./js/glidejs/glide.min.js"></script>
+    
     <script type="text/javascript" src="./js/init.js"></script>
         
     <script>
