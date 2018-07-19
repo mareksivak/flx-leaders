@@ -15,7 +15,6 @@ body
     line-height: 1.5;
     color: #333;
     margin: 0;
-    overflow-x: hidden;
     
     display: flex;
     min-height: 100vh;
@@ -209,8 +208,8 @@ ul {
 
 .leader {
     margin-bottom: 3rem;
-    padding-right: 3rem;
-    padding-left: 0rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
 }
 .leader img {
     max-width: 100%;
@@ -219,9 +218,9 @@ ul {
     font-weight: 700;
     margin-top: 1rem;
 }
-.glide__track {
+/*.glide__track {
     overflow: visible;
-}
+}*/
 
 .section ul {
     margin-bottom: 2rem;

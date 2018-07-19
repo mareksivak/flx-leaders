@@ -1,10 +1,4 @@
-.row {
-    margin: 0;
-}
 
-.no-padding {
-    padding: 0;
-}
 
 @media only screen and (max-width: 48rem)
 {
@@ -87,4 +81,18 @@
    /* .container {
         width: 93rem;
     }*/
+}
+
+.row {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+.reset-padding-bottom {
+    padding-bottom: 0;
+}
+.reset-padding-top {
+    padding-top: 0;
 }

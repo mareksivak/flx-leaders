@@ -1,13 +1,10 @@
 new WOW().init();
-//new Glide('.glide').mount();
 new Glide('.glide', {
   type: 'slider',
   gap: 0,
   startAt: 0,
   perView: 3,
-  keyboard: true,
-  bound: true,
-  breakpoints: {
+    breakpoints: {
     1024: {
       perView: 2
     },
@@ -20,8 +17,6 @@ new Glide('.glide', {
     after: 80,
   }
 }).mount();
-
-//$(".nav-wrapper").css("background", "yellow");
 
 //$(document).ready(function() {
 $(window).ready(function() {
