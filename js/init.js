@@ -1,6 +1,6 @@
 new WOW().init();
 new Glide('.glide', {
-  type: 'slider',
+  type: 'carousel',
   gap: 0,
   startAt: 0,
   perView: 3,

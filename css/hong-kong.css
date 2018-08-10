@@ -151,6 +151,7 @@ ul {
     margin-top: 4rem;
     margin-bottom: 4rem;
     background: #C4C4CB;
+    background: #fff;
     color: #000;
     position: relative;
 }
@@ -206,6 +207,12 @@ ul {
     float: right;
 }
 
+.glide:hover {
+    cursor: -webkit-grab; cursor: grab;
+}
+.glide:active {
+    cursor: -webkit-grabbing; cursor: grabbing;
+}
 .leader {
     margin-bottom: 3rem;
     padding-right: 1rem;
