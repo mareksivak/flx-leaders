@@ -249,6 +249,11 @@ ul {
     background-repeat:no-repeat; 
 }
 
+.applied-box {
+    background: #C4C4CB;
+    padding: 1rem;
+}
+
 .mobile-nav {
     position: fixed;
     top: 0;
