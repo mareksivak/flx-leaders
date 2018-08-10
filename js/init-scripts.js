@@ -1,6 +1,6 @@
 // fullstory
 
-swindow['_fs_debug'] = false;
+window['_fs_debug'] = false;
 window['_fs_host'] = 'fullstory.com';
 window['_fs_org'] = 'AS84W';
 window['_fs_namespace'] = 'FS';
