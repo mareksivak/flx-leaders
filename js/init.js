@@ -45,3 +45,14 @@ $(window).ready(function() {
 
 console.log("init");
 
+$( ".submit" ).click(function() {
+  console.log("'Let's talk' clicked");
+    
+    var current_url = document.location.href;
+  if(current_url.indexOf("?") != -1) {
+        var url = document.location.href+"&success=yes";
+    }else{
+        var url = document.location.href+"?success=yes";
+    }
+      document.location = url;
+});
